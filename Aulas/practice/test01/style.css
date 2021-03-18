@@ -1,0 +1,15 @@
+body{
+    background-image: url(images/stamp.png);
+    background-repeat: repeat;
+}
+
+h1{
+    color: rgb(85, 163, 194);
+}
+
+.div{
+    width: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
