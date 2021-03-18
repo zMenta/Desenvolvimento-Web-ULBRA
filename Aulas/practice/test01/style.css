@@ -7,9 +7,22 @@ h1{
     color: rgb(85, 163, 194);
 }
 
-.div{
-    width: 200px;
-    background-color: black;
+p{
+    color: brown;
+}
+
+.center{
+    justify-content: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+     
 }
+
+.content{
+    width: 70%;
+    background-color: black;
+}
+
