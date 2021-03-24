@@ -1,6 +1,6 @@
 body{
     background-color: gray;
-
+    font-family: sans-serif;
 }
 
 .flex_box{
@@ -85,4 +85,5 @@ span{
 .no_list_style{
     list-style-type: none;
 }
+
 
