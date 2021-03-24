@@ -15,7 +15,6 @@ body{
 .flex_box div{
     display: flex;
     flex-direction: row;
-    
     text-align: center;
     background-color: aliceblue;
     padding: 5px;
