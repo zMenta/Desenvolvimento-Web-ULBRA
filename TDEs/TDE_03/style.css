@@ -6,16 +6,52 @@ body{
 .flex_box{
     display: flex;
     justify-content: center;
-    justify-items: center;
-    background-color: rgb(127, 255, 212);
+    flex-direction: column;
+    margin: 2%;
+    padding: 10%;
+    background-color: rgba(203, 221, 220, 0.712);
 }
 
 .flex_box div{
+    display: flex;
+    flex-direction: row;
     border-top: 3px solid black;
     text-align: center;
     background-color: aliceblue;
-    width: 100px;
-    font-size: 40px;
     padding: 20px;
-    margin: 60px;
+    margin: 20px;
+}
+
+.flex_box article{
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(110, 168, 82);
+}
+
+img{
+    height: 150px;;
+    width: 150px;
+}
+
+p{
+    margin-left: 60px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+h2{
+    text-align: left;
+}
+
+span{
+    color: rgb(84, 204, 36);
+}
+
+.flex_box div .center{
+    display: flex;
+    flex-direction: column;
+}
+
+.side_division{
+    border-left: 5px solid green;
 }
