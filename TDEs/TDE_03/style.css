@@ -7,22 +7,22 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 2%;
-    padding: 10%;
+    margin: 1%;
+    padding: 4%;
     background-color: rgba(203, 221, 220, 0.712);
 }
 
 .flex_box div{
     display: flex;
     flex-direction: row;
-    border-top: 3px solid black;
+    
     text-align: center;
     background-color: aliceblue;
-    padding: 20px;
-    margin: 20px;
+    padding: 5px;
+    margin: 8px;
 }
 
-.flex_box article{
+.color{
     border-radius: 20px;
     text-align: center;
     background-color: rgb(110, 168, 82);
@@ -33,10 +33,25 @@ img{
     width: 150px;
 }
 
+.p_left{
+    text-align: left;
+    margin-left: 60px;
+    padding-left: 15px;
+    font-size: 25px;
+}
+
 p{
     margin-left: 60px;
-    padding-left: 20px;
+    padding-left: 15px;
     font-size: 25px;
+}
+
+li{
+    text-align: left;
+    margin-left: 60px;
+    padding-left: 15px;
+    font-size: 25px;
+    padding-top: 20px;
 }
 
 h2{
@@ -54,4 +69,20 @@ span{
 
 .side_division{
     border-left: 5px solid green;
+    display: flex;
+    flex-direction: column;
 }
+
+.top_division{
+    border-top: 5px solid green;
+}
+
+.div_half{
+    max-width: 50%;
+    min-width: 50%;
+}
+
+.no_list_style{
+    list-style-type: none;
+}
+
