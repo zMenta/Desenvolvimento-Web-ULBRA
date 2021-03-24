@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+
+}
+
+.flex_box{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(127, 255, 212);
+}
+
+.flex_box div{
+    border-top: 3px solid black;
+    text-align: center;
+    background-color: aliceblue;
+    width: 100px;
+    font-size: 40px;
+    padding: 20px;
+    margin: 60px;
+}
