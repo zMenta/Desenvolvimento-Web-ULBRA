@@ -28,7 +28,6 @@ tr, th, td, table{
 }
 
 .line{
-    border: 1px black solid;
     clear: both;
 }
 
@@ -57,6 +56,10 @@ tr, th, td, table{
     background-color: gray;
 }
 
+.center{
+    display: flex;
+    justify-content: center; 
+}
 
 /* ID's Styles */
 
