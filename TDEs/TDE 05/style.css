@@ -6,7 +6,7 @@ body{
     font-family: sans-serif;   
 }
 
-tr, th, table{
+tr, th, td, table{
     border: 1px black solid;
 }
 
@@ -33,7 +33,7 @@ tr, th, table{
 }
 
 .tableMargin{
-    margin-left: 2%;
+    margin-left: 5%;
 }
 
 
