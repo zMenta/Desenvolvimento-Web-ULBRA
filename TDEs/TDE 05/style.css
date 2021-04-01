@@ -33,7 +33,28 @@ tr, th, td, table{
 }
 
 .tableMargin{
-    margin-left: 5%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.ball{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    margin-left: 10px;
+    float: left;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.gray{
+    background-color: gray;
 }
 
 
