@@ -8,6 +8,8 @@ body{
 
 tr, th, td, table{
     border: 1px black solid;
+    font-size: 19px;
+    padding: 2px;
 }
 
 /* Classes Styles */
@@ -38,8 +40,8 @@ tr, th, td, table{
 
 .ball{
     border-radius: 50%;
-    height: 12px;
-    width: 12px;
+    height: 18px;
+    width: 18px;
     margin-left: 10px;
     float: left;
 }
@@ -56,9 +58,24 @@ tr, th, td, table{
     background-color: gray;
 }
 
+.lefFlex{
+    display: flex;
+    justify-content: left;
+}
+
 .center{
     display: flex;
     justify-content: center; 
+}
+
+.alignRight{
+    text-align: right;
+    padding-right: 1%;
+}
+
+.alignLeft{
+    text-align: left;
+    padding-left: 1%;
 }
 
 /* ID's Styles */
