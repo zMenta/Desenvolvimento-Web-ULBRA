@@ -1,0 +1,96 @@
+/* Tag styles */
+body{
+    background-color: rgb(187, 187, 187);
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+table,tr{
+    border-top: lightgray 1.2px solid;
+    
+}
+
+h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* Classes styles */
+
+.flexbox_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexbox_item{
+    background-color: antiquewhite;
+    /* border: 1.5px black solid; */
+    margin: 10px;
+    padding: 3px;
+}
+
+.item_header{
+    background-color: rgb(50, 50, 126);
+    min-height: 65px;
+    margin: 0px ;
+    min-width: 100%;
+    color: rgb(222, 230, 236);
+}
+
+.header_buttons_container{
+    background-color: rgb(50, 50, 126);
+    display: flex;
+    margin: 0px;
+    min-width: 100%;
+    justify-content: center;
+    color: rgb(222, 230, 236);
+}
+
+.header_button{
+    background-color: rgb(50, 50, 126);
+    padding: 0px 0px 2px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 100px;
+}
+
+.item_classification{
+    min-height: 100px;
+    margin-top: 0px;
+    flex-grow: 1;
+}
+
+.item_statistics{
+    min-height: 100px;
+}
+
+.item_matches{
+    min-height: 100px;
+}
+
+.ball{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.alignRight{
+    text-align: right;
+    padding-right: 1%;
+}
