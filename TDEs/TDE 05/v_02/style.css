@@ -10,13 +10,13 @@ table{
     
 }
 
-table,tr{
-    border-top: lightgray 1.2px solid;
+table,tr,td{
+    border-top: lightgray 2px solid;
     
 }
 
 table,tr,td,th{
-    border: 1px black solid;
+    /* border: 1px black solid; */
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ h1{
 }
 
 .flexbox_item{
-    background-color: antiquewhite;
+    background-color: rgb(241, 241, 241);
     /* border: 1.5px black solid; */
     margin: 10px;
     padding: 3px;
@@ -79,6 +79,10 @@ h1{
 
 .item_matches{
     min-height: 100px;
+}
+
+.item_matches td{
+    background-color: rgb(223, 223, 223);
 }
 
 .ball{
