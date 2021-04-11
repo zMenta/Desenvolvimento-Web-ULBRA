@@ -10,6 +10,11 @@ table{
     
 }
 
+img{
+    max-height: 18px;
+    margin-right: 6px;
+}
+
 table,tr,td{
     border-top: lightgray 2px solid;
     
@@ -83,6 +88,7 @@ h1{
 
 .item_matches td{
     background-color: rgb(223, 223, 223);
+    text-align: left;
 }
 
 .ball{
