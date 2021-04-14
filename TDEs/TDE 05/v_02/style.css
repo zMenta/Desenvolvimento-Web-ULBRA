@@ -19,20 +19,29 @@ table,tr,td{
     border-top: lightgray 2px solid;
     
 }
+table{
+    margin-left: 10px;
+}
 
 table,tr,td,th{
     /* border: 1px black solid; */
     text-align: center;
 }
 
-h1{
+h1,h2{
     font-size: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
+}
+
+h3{
+    font-size: 15px;
+    margin-left: 10px;
 }
 
 /* Classes styles */
 
 .flexbox_container{
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -72,6 +81,7 @@ h1{
 }
 
 .item_classification{
+    background-color: rgb(187, 187, 187);
     min-width: 60%;
     min-height: 100px;
     margin-top: 0px;
@@ -119,4 +129,8 @@ h1{
 .alignLeft{
     text-align: left;
     padding-left: 1%;
+}
+
+.alignCenter{
+    text-align: center;
 }
