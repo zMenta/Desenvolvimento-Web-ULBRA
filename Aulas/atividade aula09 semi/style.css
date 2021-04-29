@@ -2,14 +2,10 @@
     margin: 0px;
 }
 
-section{
-    display: flex;
-    align-content: center;
-}
-
 footer{
     background-color: blue;
-    align-content: ;
+    align-content: center;
+    min-height: 50px;
 }
 
 header{
@@ -47,7 +43,7 @@ header{
 #section_background_img{
     background-image: url("https://cdna.artstation.com/p/assets/images/images/023/594/606/large/lucas-brentano-8.jpg?1579713370") ;
     background-size: cover;
-    width: 100%;
+    width: 120%;
     height: 100vh;
     overflow: hidden;
 }
