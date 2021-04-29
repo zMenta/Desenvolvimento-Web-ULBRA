@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+}
+
+section{
+    display: flex;
+    align-content: center;
+}
+
+footer{
+    background-color: blue;
+    align-content: ;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: left;  
+    min-height: 80px;
+    padding: 18px;
+}
+
+
+/* Classes */
+
+#nav_container{
+    margin: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+#nav_container p{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#nav_container a{
+    text-decoration: none;
+    color: rgb(195, 200, 252);
+}
+
+/* #section_container{
+    display: flex;
+} */
+
+#section_background_img{
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/023/594/606/large/lucas-brentano-8.jpg?1579713370") ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#section_left_from_img{
+    background-color: brown;
+    width: 22%;
+    padding: 1%;
+}
