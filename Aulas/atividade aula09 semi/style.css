@@ -3,13 +3,15 @@
 }
 
 footer{
-    background-color: blue;
-    align-content: center;
+    background-color:rgb(15, 15, 15);
+    text-align: center;
     min-height: 50px;
+    color: white;
+    padding-top: 2%;
 }
 
 header{
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     color: white;
     text-align: left;  
     min-height: 80px;
@@ -36,20 +38,11 @@ header{
     color: rgb(195, 200, 252);
 }
 
-/* #section_container{
-    display: flex;
-} */
-
 #section_background_img{
     background-image: url("https://cdna.artstation.com/p/assets/images/images/023/594/606/large/lucas-brentano-8.jpg?1579713370") ;
     background-size: cover;
-    width: 120%;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
-#section_left_from_img{
-    background-color: brown;
-    width: 22%;
-    padding: 1%;
-}
