@@ -8,6 +8,7 @@ footer{
     min-height: 50px;
     color: white;
     padding-top: 2%;
+    clear: both;
 }
 
 header{
@@ -19,7 +20,7 @@ header{
 }
 
 
-/* Classes */
+/* ID`s */
 
 #nav_container{
     margin: 25px;
@@ -39,10 +40,25 @@ header{
 }
 
 #section_background_img{
-    background-image: url("https://cdna.artstation.com/p/assets/images/images/023/594/606/large/lucas-brentano-8.jpg?1579713370") ;
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/023/594/606/large/lucas-brentano-8.jpg?1579713370");
     background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    width: 92%;
+    height: 96vh;
+    float: left;
 }
+
+#side_bar{
+    background-color: black;
+    height: 96vh;
+    text-align: center;
+}
+
+#side_bar p{
+    padding-top: 5%;
+    padding-right: 2%;
+    color: white;
+}
+
+
+
 
