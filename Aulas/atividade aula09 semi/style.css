@@ -2,13 +2,28 @@
     margin: 0px;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 footer{
     background-color:rgb(15, 15, 15);
     text-align: center;
     min-height: 50px;
     color: white;
     padding-top: 2%;
-    clear: both;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(195, 200, 252);
+}
+
+
+footer img{
+    max-width: 25px;
+    margin-right: 5px;
+    margin-left: 30px;
 }
 
 header{
@@ -34,29 +49,35 @@ header{
     margin-right: 2%;
 }
 
-#nav_container a{
-    text-decoration: none;
-    color: rgb(195, 200, 252);
-}
 
 #section_background_img{
     background-image: url("https://cdna.artstation.com/p/assets/images/images/023/594/606/large/lucas-brentano-8.jpg?1579713370");
     background-size: cover;
-    width: 92%;
+    width: 80%;
     height: 96vh;
-    float: left;
 }
 
 #side_bar{
     background-color: black;
+    width: 20%;
     height: 96vh;
     text-align: center;
+    color: white;
 }
 
-#side_bar p{
+#side_bar p,h3{
     padding-top: 5%;
-    padding-right: 2%;
-    color: white;
+    padding-right: 12%;
+}
+
+/* CLASSES */
+
+.flex_container{
+    display: flex;
+}
+
+.container_center{
+    justify-content: center;
 }
 
 
