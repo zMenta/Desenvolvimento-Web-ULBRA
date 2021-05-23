@@ -1,8 +1,39 @@
-article{
-    background-color: aquamarine;
+/* Tags */
+
+header{
+    background-color: rgb(245, 245, 245) !important;
 }
 
-aside{
-    background-color: brown;
+h1{
+    color: rgb(250, 121, 35);
+}
+
+footer{
+    background-color: rgb(250, 121, 35) !important;
+}
+
+footer h4{
+    color: white;
+}
+
+h4{
+    color:rgb(250, 121, 35);
+}
+
+p{
+    font-weight: bold;
+}
+
+/* Classes */
+.border-t{
+    border-top: 2px solid gray;
+}
+
+.border-l{
+    border-left: 2px solid gray;
+}
+
+.border-b{
+    border-bottom: 1px solid black;
 }
 
