@@ -12,6 +12,10 @@ footer{
     background-color: rgb(250, 121, 35) !important;
 }
 
+footer{
+    color: white;
+}
+
 footer h4{
     color: white;
 }
@@ -22,6 +26,14 @@ h4{
 
 p{
     font-weight: bold;
+}
+
+img{
+    max-height: 150px;
+}
+
+a{
+    color: white;
 }
 
 /* Classes */
@@ -41,3 +53,15 @@ p{
     border-radius: 50%;
 }
 
+.normal{
+    font-weight: normal;
+}
+
+.button-bg{
+    background-color: rgb(16, 8, 37);
+    
+}
+
+.icon{
+    max-height: 40px;
+}
