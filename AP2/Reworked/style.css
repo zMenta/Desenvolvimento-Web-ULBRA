@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.3rem !important;
+    line-height: 1.58 !important;
+}
+
+a {
+    color: cadetblue !important;
+    text-decoration: none !important;
+}
+
+a:hover{
+    text-decoration: underline !important;
+}
+
+
+/* Classes */
+.banner {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    height: 25vh;
+    width: 100%;
+}
+
+.menu {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.content p{
+    margin-top: 4%;
+}
+
+.title h1{
+    margin: 0;
+}
+
+.title h2{
+    color: rgba(0, 0, 0, 0.541176);
+    font-size: 1.5rem;
+    margin-top: 2vh;
+    margin-bottom: 4.5vh;
+}
