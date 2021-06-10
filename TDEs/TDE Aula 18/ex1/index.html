@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+
+    <form>
+        
+        <!-- Number1 input -->
+        <label for="num1">Number1: </label>
+        <input id="num1" type="text">
+
+        <br>
+        <br>
+
+        <!-- Number2 input -->
+        <label for="num2">Number2: </label>
+        <input id="num2" type="text">
+
+        <br>
+        <br>
+
+        <!-- Select Operation  -->
+        <label for="calcOperation" >Choose the Operation: </label>
+        <select name="calcOperation" id="calcOperation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+
+        <!-- Button -->
+        <button onclick="calcNumbers()">Calculate</button>
+
+        <br>
+        <br>
+
+        <!-- Label for the Result -->
+
+        <label>Result:</label>
+        <label id="calcResult"></label>
+        
+
+    </form>
+</body>
+</html>
