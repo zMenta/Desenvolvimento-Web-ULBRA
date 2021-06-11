@@ -6,7 +6,7 @@ var result
 
 result = price*usage
 
-if(result >= 100 & result < 200){
+if(result > 100 & result < 200){
     result = result*1.25
 }else if(result > 200){
     result = result*1.5
