@@ -1,3 +1,4 @@
+// By Lucas Brentano
 function bmi_calculate(){
     weight = document.getElementById("bmi_weight").value
     height = document.getElementById("bmi_height").value / 100 // Diving it by zero so I don't need to ask the height in meters, but instead with cm
