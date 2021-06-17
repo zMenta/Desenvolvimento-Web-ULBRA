@@ -18,16 +18,16 @@ td{
     background-color: white;
 }
 
-/* Classes */
+/* Ids */
 
-.bmi_ideal{
+#bmi_ideal{
     color: rgb(3, 110, 3);
 }
 
-.bmi_above{
+#bmi_above{
     color: rgb(199, 116, 7);
 }
 
-.bmi_obese, .bmi_below{
+#bmi_obese, #bmi_below{
     color: rgb(189, 0, 0) ;
 }
