@@ -15,11 +15,18 @@
     <h1>Body Mass Index(BMI) Calculator</h1>
 
     <p>The calculation works by BMI = weight/height²</p>
-    <br>
     <p>Please inform your height(cm) and your weight(kg).</p>
     <p>And the result will show in the following table.</p>
 
     <form>
+        <br>
+        <label> Your weight: </label> 
+        <input class="bmi_weight" type="number">
+        <br><br>
+        <label>Your height: </label>
+        <input class="bmi_height" type="number">
+        <br><br>
+        <button type="button" onclick="bmi_calculate()">Calculate</button>
 
     </form>
 
