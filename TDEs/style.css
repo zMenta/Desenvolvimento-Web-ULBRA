@@ -1,0 +1,33 @@
+*{
+    font-size: 103%;
+}
+
+table{
+    text-align: center;
+    width: 40%;
+}
+
+table{
+    border: 1.5px lightgray solid;
+    background-color: lightgray;
+    
+}
+
+td{
+    padding: 0.5%;
+    background-color: white;
+}
+
+/* Classes */
+
+.bmi_ideal{
+    color: rgb(3, 110, 3);
+}
+
+.bmi_above{
+    color: rgb(199, 116, 7);
+}
+
+.bmi_obese, .bmi_below{
+    color: rgb(189, 0, 0) ;
+}
