@@ -24,3 +24,9 @@ aside{
 footer{
     background-color: rgb(150, 134, 48);
 }
+
+/* ID's */
+
+#warning{
+    color: rgb(141, 27, 27);
+}

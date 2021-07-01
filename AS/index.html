@@ -7,8 +7,8 @@
     <title>Document</title>
 
     <!-- Javascript, jquery, bootstrap and css -->
-    <script type="text/javascript" src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 
@@ -22,7 +22,7 @@
 
 
     <!-- content  -->
-    <div class="container col-sm-12">
+    <main class="container col-sm-12">
         
         <!-- section -->
         <section>
@@ -51,7 +51,7 @@
             
         </div>
         
-    </div>
+    </main>
     
     <!-- footer -->
     <footer class="text-center p-3">
@@ -60,8 +60,10 @@
         <!-- form -->
         <form>
             <label>Please join our Newsletter to keep updated! </label>
-            <input type="text">
-            <button type="button"> Submit</button>
+            <input type="text" id="f_newsletter"> 
+            <button type="button" id="bt_newsletter"> Submit</button>
+            <!-- Empyt p tag to warn if something wrong occured with the form. -->
+            <p id="warning"></p>
 
         </form>
     </footer>
