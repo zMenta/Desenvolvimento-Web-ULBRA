@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
-    $("#c_tart").hide()
+    $("#start").hide()
+    // $("#c_tart").hide()
     $("#pizza").hide()
 
 
@@ -10,7 +11,6 @@ $(document).ready(function(){
         $("#c_tart").slideUp(350);
         $("#pizza").slideUp(350);
         $("#start").delay(250).slideDown(350);
-
 
     });
 
@@ -32,7 +32,6 @@ $(document).ready(function(){
         $("#pizza").delay(250).slideDown(350);
 
     });
-
 
 
     // Error msg if the newsletter input is empty.

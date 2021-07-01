@@ -10,6 +10,16 @@ button{
     border: none !important;
 }
 
+img{
+    max-height: 300px !important;
+    transition-duration: 0.6s !important;
+}
+
+img:hover{
+    max-height: 420px !important;
+    box-shadow: 10px 10px 20px rgba(68, 65, 65, 0.7);
+}
+
 
 /* Color coding for better testing */
 
@@ -51,4 +61,11 @@ footer button{
 
 #warning{
     color: rgb(141, 27, 27);
+}
+
+/* Classes */
+
+.recipe_num{
+    color: rgb(45, 47, 165) ;
+    font-weight: bold;
 }
