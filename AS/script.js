@@ -1,5 +1,14 @@
 $(document).ready(function(){
 
+    
+
+
+
+
+
+
+
+
     // Error msg if the newsletter input is empty.
     $("#bt_newsletter").click(function(){
 

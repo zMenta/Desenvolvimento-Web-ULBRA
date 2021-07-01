@@ -3,6 +3,14 @@
     padding: 0px !important;
 }
 
+/* General Tags */
+
+button{
+    transition-duration: 0.35s !important;
+    border: none !important;
+}
+
+
 /* Color coding for better testing */
 
 header{
@@ -14,15 +22,29 @@ section{
 }
 
 article{
-    background-color: rgb(122, 93, 160);
+    
+    background-color: rgba(122, 93, 160,0.5);
 }
 
 aside{
-    background-color: rgb(61, 124, 61) ;
+    background-color: rgba(61, 124, 61,0.7) ;
+}
+
+aside button:hover{
+    font-size: larger;
+    /* font-weight: bold; */
+    color: rgb(18, 34, 253) !important;
 }
 
 footer{
     background-color: rgb(150, 134, 48);
+}
+
+footer button{
+    margin-left: 1% !important;
+    padding: 4px !important;
+    border: none;
+    border-radius: 14%;
 }
 
 /* ID's */
