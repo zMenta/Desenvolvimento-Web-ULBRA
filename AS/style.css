@@ -1,0 +1,26 @@
+*{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+/* Color coding for better testing */
+
+header{
+    background-color: rgb(94, 168, 168);
+}
+
+section{
+    background-color: rgb(129, 66, 66);
+}
+
+article{
+    background-color: rgb(59, 59, 112);
+}
+
+aside{
+    background-color: rgb(61, 124, 61) ;
+}
+
+footer{
+    background-color: rgb(150, 134, 48);
+}
