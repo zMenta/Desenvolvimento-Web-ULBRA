@@ -36,7 +36,7 @@ $(document).ready(function(){
         console.log("Button Pressed");
 
         if(content == ""){
-            $("#warning").fadeIn(200).html("Error: The field is empty!");
+            $("#warning").fadeIn(200).html("Error: The field is empty!").css("color","rgb(141, 27, 27)");
             $("#warning").delay(4000).fadeOut(300);
         }else{
             $("#warning").fadeIn(200).html("Thank you").css("color","green")
