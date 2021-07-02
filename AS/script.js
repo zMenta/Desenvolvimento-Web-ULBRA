@@ -39,7 +39,8 @@ $(document).ready(function(){
             $("#warning").fadeIn(200).html("Error: The field is empty!");
             $("#warning").delay(4000).fadeOut(300);
         }else{
-            // $("#warning").fadeIn(200).html("Email ");
+            $("#warning").fadeIn(200).html("Thank you").css("color","green")
+            $("#warning").delay(4000).fadeOut(300);
         };
 
 
