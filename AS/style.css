@@ -65,6 +65,10 @@ footer button{
 
 /* Classes */
 
+.screen{
+    min-height: 100vh;
+}
+
 .recipe_num{
     color: rgb(45, 47, 165) ;
     font-weight: bold;
