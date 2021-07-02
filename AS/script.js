@@ -1,15 +1,12 @@
-
 $(document).ready(function(){
-    $("#start").hide()
-    // $("#c_tart").hide()
-    $("#pizza").hide()
+    $(".content").hide()
+    $("#start").show()
 
 
     // Start Button
     $("#bt_start").click(function(){
 
-        $("#c_tart").slideUp(350);
-        $("#pizza").slideUp(350);
+        $(".content").slideUp(350);
         $("#start").delay(250).slideDown(350);
 
     });
@@ -18,8 +15,7 @@ $(document).ready(function(){
     // Chocolate Tart Button
     $("#bt_tart").click(function(){
 
-        $("#start").slideUp(350);
-        $("#pizza").slideUp(350);
+        $(".content").slideUp(350);
         $("#c_tart").delay(250).slideDown(350);
 
     });
@@ -27,8 +23,7 @@ $(document).ready(function(){
     // Pizza button
     $("#bt_pizza").click(function(){
 
-        $("#start").slideUp(350);
-        $("#c_tart").slideUp(350);
+        $(".content").slideUp(350);
         $("#pizza").delay(250).slideDown(350);
 
     });
@@ -44,7 +39,8 @@ $(document).ready(function(){
             $("#warning").fadeIn(200).html("Error: The field is empty!");
             $("#warning").delay(4000).fadeOut(300);
         }else{
-            $("#warning").fadeOut(300);
+            $("#warning").fadeIn(200).html("Thank you").css("color","green")
+            $("#warning").delay(4000).fadeOut(300);
         };
 
 
