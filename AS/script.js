@@ -6,8 +6,14 @@ $(document).ready(function(){
     $("#bt_dark_mode").click(function(){
 
         console.log("Dark Mode")
-        $("body").toggleClass("normal big");
+        $("body").toggleClass("light dark");
+        $("button").toggleClass("bt_dark")
 
+        if($("body").hasClass("dark") == true){
+            $("span").text("On")
+        }else{
+            $("span").text("Off")
+        }
 
     });
 
@@ -43,7 +49,7 @@ $(document).ready(function(){
         console.log("Button Pressed");
 
         if(content == ""){
-            $("#warning").fadeIn(200).html("Error: The field is empty!").css("color","red");
+            $("#warning").fadeIn(200).html("Error: The field is empty!").css("color","rgb(189, 22, 22)");
             $("#warning").delay(4000).fadeOut(300);
         }else{
             $("#warning").fadeIn(200).html("Thank you").css("color","green")

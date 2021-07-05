@@ -24,28 +24,6 @@ img:hover{
     box-shadow: 10px 10px 20px rgba(68, 65, 65, 0.7);
 }
 
-
-/* Color coding for better testing */
-
-header{
-    /* background-color: rgb(94, 168, 168); */
-    background-color: rgb(148, 224, 214);
-}
-
-section{
-    /* background-color: rgb(129, 66, 66); */
-}
-
-article{
-    
-    /* background-color: rgba(122, 93, 160,0.5); */
-}
-
-aside{
-    /* background-color: rgba(61, 124, 61,0.7) ; */
-    background-color: rgba(148, 224, 214,0.8)
-}
-
 aside button:focus{
     outline: none;
 }
@@ -64,21 +42,37 @@ aside button:hover{
     color: rgb(30, 80, 173) !important;
 }
 
-footer{
-    /* background-color: rgb(150, 134, 48); */
-    background-color: rgb(148, 224, 214)
-}
-
 footer button{
     margin-left: 1% !important;
     padding: 4px !important;
     border: none;
     border-radius: 14%;
+    background-color: transparent;
 }
 
 /* Classes */
 
 
+.light{
+    background-color: white;
+    color: black !important;
+}
+
+.dark{
+    background-color: rgb(63, 60, 71);
+    color: white !important;
+}
+
+
+.bt_light{
+    color: black;
+    
+}
+
+.bt_dark{
+    color: white;
+
+}
 
 .screen{
     min-height: 100vh;
@@ -87,4 +81,8 @@ footer button{
 .recipe_num{
     color: rgb(45, 47, 165) ;
     font-weight: bold;
+}
+
+.red{
+    color: rgb(189, 22, 22);
 }
