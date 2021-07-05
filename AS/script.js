@@ -2,6 +2,14 @@ $(document).ready(function(){
     $(".content").hide()
     $("#start").show()
 
+    // Dark Mode button
+    $("#bt_dark_mode").click(function(){
+
+        console.log("Dark Mode")
+        $("body").toggleClass("normal big");
+
+
+    });
 
     // Start Button
     $("#bt_start").click(function(){
@@ -10,7 +18,6 @@ $(document).ready(function(){
         $("#start").delay(250).slideDown(350);
 
     });
-
 
     // Chocolate Tart Button
     $("#bt_tart").click(function(){
@@ -36,7 +43,7 @@ $(document).ready(function(){
         console.log("Button Pressed");
 
         if(content == ""){
-            $("#warning").fadeIn(200).html("Error: The field is empty!").css("color","rgb(141, 27, 27)");
+            $("#warning").fadeIn(200).html("Error: The field is empty!").css("color","red");
             $("#warning").delay(4000).fadeOut(300);
         }else{
             $("#warning").fadeIn(200).html("Thank you").css("color","green")
