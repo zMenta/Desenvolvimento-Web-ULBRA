@@ -35,7 +35,7 @@ aside button{
 aside button:hover{
     font-size: larger;
     font-weight: bold;
-    color: rgb(30, 80, 173) !important;
+    color: rgb(62, 101, 172) !important;
 }
 
 footer button{
@@ -47,7 +47,6 @@ footer button{
 }
 
 /* Classes */
-
 
 .light{
     background-color: white;
@@ -73,12 +72,15 @@ footer button{
 .screen{
     min-height: 100vh;
 }
-
-.recipe_num{
-    color: rgb(45, 47, 165) ;
+.light  .recipe_num{
+    color: rgb(161, 1, 1) ;
     font-weight: bold;
 }
 
-.red{
-    color: rgb(189, 22, 22);
+.dark .recipe_num{
+    color: rgb(121, 123, 255) ;
+    font-weight: bold;
 }
+
+
+
