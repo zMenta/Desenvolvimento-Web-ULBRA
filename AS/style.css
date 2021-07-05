@@ -5,10 +5,6 @@
 
 /* General Tags */
 
-body{
-    background-color: white;
-}
-
 button{
     transition-duration: 0.2s !important;
     border: none !important;
