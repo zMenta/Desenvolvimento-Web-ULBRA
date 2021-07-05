@@ -5,6 +5,10 @@
 
 /* General Tags */
 
+body{
+    background-color: white;
+}
+
 button{
     transition-duration: 0.2s !important;
     border: none !important;
@@ -24,20 +28,22 @@ img:hover{
 /* Color coding for better testing */
 
 header{
-    background-color: rgb(94, 168, 168);
+    /* background-color: rgb(94, 168, 168); */
+    background-color: rgb(148, 224, 214);
 }
 
 section{
-    background-color: rgb(129, 66, 66);
+    /* background-color: rgb(129, 66, 66); */
 }
 
 article{
     
-    background-color: rgba(122, 93, 160,0.5);
+    /* background-color: rgba(122, 93, 160,0.5); */
 }
 
 aside{
-    background-color: rgba(61, 124, 61,0.7) ;
+    /* background-color: rgba(61, 124, 61,0.7) ; */
+    background-color: rgba(148, 224, 214,0.8)
 }
 
 aside button:focus{
@@ -59,7 +65,8 @@ aside button:hover{
 }
 
 footer{
-    background-color: rgb(150, 134, 48);
+    /* background-color: rgb(150, 134, 48); */
+    background-color: rgb(148, 224, 214)
 }
 
 footer button{
