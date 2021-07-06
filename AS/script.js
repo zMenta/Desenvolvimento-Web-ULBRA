@@ -2,18 +2,33 @@ $(document).ready(function(){
     $(".content").hide()
     $("#start").show()
 
-    // Dark Mode button
-    $("#bt_dark_mode").click(function(){
-        console.log("Dark Mode")
-        $("body").toggleClass("light dark");
-        $("button").toggleClass("bt_dark")
-
+    // Verifies if the local storage has values on it.
+    if(!localStorage.getItem("theme")){
+        localStorage.setItem("theme","light");
+        console.log("SET THEME LIGHT")
+    }else{
+        $("body").addClass(localStorage["theme"])
         if($("body").hasClass("dark") == true){
             $("span").text("On")
         }else{
             $("span").text("Off")
         }
+    }
 
+    console.log("Storage: "+localStorage["theme"])
+
+    // Dark Mode button
+    $("#bt_dark_mode").click(function(){
+        console.log("Dark Mode Button Press")
+        $("body").removeClass("light dark")
+        if(localStorage["theme"] == "dark"){
+            $("span").text("Off")
+            localStorage.setItem("theme", "light")
+        }else{
+            $("span").text("On")
+            localStorage.setItem("theme", "dark")
+        }
+        $("body").addClass(localStorage["theme"])
     });
 
     // Start Button
