@@ -61,7 +61,7 @@ footer button{
     background-color: rgba(236, 236, 236,0.45);
 }
 
-.bt_light{
+.light button{
     color: black;
 }
 
@@ -96,7 +96,7 @@ footer button{
     background-color: rgba(63, 60, 71,0.5);
 }
 
-.bt_dark{
+.dark button{
     color: white;
 
 }
