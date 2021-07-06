@@ -47,39 +47,53 @@ footer button{
 }
 
 /* Classes */
+.screen{
+    min-height: 100vh;
+}
 
+/* Light Theme colors */
 .light{
     background-color: white;
     color: black !important;
 }
-
-.dark{
-    background-color: rgb(63, 60, 71);
-    color: white !important;
-}
-
 
 .bt_light{
     color: black;
     
 }
 
-.bt_dark{
-    color: white;
-
-}
-
-.screen{
-    min-height: 100vh;
-}
 .light  .recipe_num{
     color: rgb(161, 1, 1) ;
     font-weight: bold;
 }
 
+/* Dark Theme colors */
+.dark{
+    background-color: rgba(63, 60, 71,0.9);
+    color: rgb(243, 243, 243) !important;
+}
+
+.dark aside,
+.dark header,
+.dark footer{
+    background-color: rgb(63, 60, 71);
+}
+
+.dark section{
+    background-color: rgba(63, 60, 71,0.5);
+}
+
+.bt_dark{
+    color: white;
+
+}
 .dark .recipe_num{
     color: rgb(121, 123, 255) ;
     font-weight: bold;
+}
+
+.dark footer button{
+    background-color: rgb(121, 123, 255);
 }
 
 

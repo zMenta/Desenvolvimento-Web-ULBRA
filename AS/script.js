@@ -4,7 +4,6 @@ $(document).ready(function(){
 
     // Dark Mode button
     $("#bt_dark_mode").click(function(){
-
         console.log("Dark Mode")
         $("body").toggleClass("light dark");
         $("button").toggleClass("bt_dark")
