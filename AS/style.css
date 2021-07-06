@@ -31,13 +31,6 @@ aside button{
     border: none;
 }
 
-
-aside button:hover{
-    font-size: larger;
-    font-weight: bold;
-    color: rgb(62, 101, 172) !important;
-}
-
 footer button{
     margin-left: 1% !important;
     padding: 4px !important;
@@ -57,13 +50,33 @@ footer button{
     color: black !important;
 }
 
+.light aside,
+.light header,
+.light footer{
+    background-color: rgb(236, 236, 236);
+    border-color: rgba(0, 0, 0,0.3)!important;
+}
+
+.light section{
+    background-color: rgba(236, 236, 236,0.45);
+}
+
 .bt_light{
     color: black;
-    
+}
+
+.light footer button{
+    background-color: rgba(78, 81, 255,0.45);
+}
+
+.light aside button:hover{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(78, 81, 255) !important;
 }
 
 .light  .recipe_num{
-    color: rgb(161, 1, 1) ;
+    color: rgb(78, 81, 255) ;
     font-weight: bold;
 }
 
@@ -94,6 +107,12 @@ footer button{
 
 .dark footer button{
     background-color: rgb(121, 123, 255);
+}
+
+.dark aside button:hover{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(121, 123, 255)  !important;
 }
 
 
