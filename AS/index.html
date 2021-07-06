@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tasty Recipes</title>
 
     <!-- Javascript, jquery, bootstrap and css -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -13,157 +13,164 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body class="light">
     
     <!-- header -->
-    <header class="text-center col-sm-12 p-4">
-        <h4>HEADER</h4>
+    <header class="text-center col-sm-12 p-4 border-bottom">
+        <h4>The Tasty Recipes Web Page</h4>
     </header>
 
 
     <!-- main  -->
     <main class="container col-sm-12">
         
-        <!-- section -->
-        <section class="text-center" >
-            <h4>SECTION</h4>
-            <h5>Welcome to tasty recipes!</h5>
-        </section>
-    
-        <!-- div containing aside,article -->
+        
+        <!-- div containing aside,article and section -->
         <div class="row col-sm-12">
             
             <!-- aside -->
             <aside class="text-center col-sm-2 py-2 ">
-                <h4>ASIDE</h4>
-                <button type="button" id="bt_start" class="m-2 btn">Start</button>
+                <button type="button" id="bt_dark_mode">Dark Mode:</button>
+                <span>Off</span>
                 <br>
-                <button type="button" id="bt_tart" class="m-2 btn">Chocolate Tart</button>
+                <button type="button" id="bt_start" class="m-2">Start</button>
                 <br>
-                <button type="button" id="bt_pizza" class="m-2 btn">Pizza</button>
+                <button type="button" id="bt_tart" class="m-2">Chocolate Tart</button>
+                <br>
+                <button type="button" id="bt_pizza" class="m-2">Pizza</button>
             </aside>
-            
-            <!-- article -->
-            <article class="text-center col-sm-10 p-3 screen">
+
+            <!-- div containing section and article -->
+            <div class="col-sm-10 ">
+
+                <!-- section -->
+                <section class="text-center col-sm-12 py-2" >
+                    <h5>Welcome to tasty recipes!</h5>
+                    <p>We're proud to show these recipes.</p>
+                </section>
                 
-                <!-- Div containing all article content -->
-                <div id="ar_content">
-
-                    <!-- Start Content -->
-                    <div id="start" class="content">
-                        <h4>ARTICLE</h4>
-                        <h5>Welcome to tasty recipes.</h5>
-                        <br>
-                        <p>This web page is a collection of recipes that I find it tasty. I highly recommend it to test this recipes out!</p>
-                        <p>Please use the bar on the left side to browse throughout the recipes. </p>
-                        <p>Please enjoy</p>
-                    </div>
-
-                    <!-- Chocolate Tart Content -->
-                    <div id="c_tart" class="content">
-                        <h4 class="mt-2">Chocolate Tart Recipe</h4>
-
-                        <p class="text-justify mx-5 mt-4">
-                            <label class="recipe_num">Time: </label> 1 hour 25 minutes, plus 5 hours to overnight chilling time.
+                <!-- article -->
+                <article class="text-center col-sm-12 p-3 screen">
+                    
+                    <!-- Div containing all article content -->
+                    <div id="ar_content">
+                        
+                        <!-- Start Content -->
+                        <div id="start" class="content">
                             <br>
-                            <br>
-                            Dominic Chapman’s lovely chocolate tart is a simple-to-make dessert that would be a wonderful finish to a meal. The orange zest and chopped hazelnuts are delicious additions to the tart base, as both are fabulous taste partners with chocolate. The trimoline required for this rich chocolate tart recipe is available from specialty food stores, but if you don’t have it on hand, you can substitute it with honey, being aware different honeys can impart different flavours in the filling
-                        </p>
-
-                        <img class="my-5 img-fluid" src="https://media.discordapp.net/attachments/341295327153750018/860245143961862144/img17699.png" >
-
-                        <div class="text-justify mx-5">
-
-                            <p class="text-left ml- font-weight-bold">Method:</p>
-                            <p class="mb-4">
-                                <label class="recipe_num">1</label>
-                                <br>
-                                Start by making the tart base. Cream the butter and icing sugar together, then add the flour, hazelnuts, salt and zest. Add 30g of the beaten egg and slowly mix together until it forms a dough. Lightly need to form a ball, wrap in cling film and rest for 1 hour in the fridge before use
-                                155g of butter
-                                100g of icing sugar
-                                75g of hazelnuts
-                                200g of flour
-                                1/4 tsp salt
-                                1 1/2 tsp orange zest
-                                1 egg
-                                <br><br>
-                                <label class="recipe_num">2</label> 
-                                <br>
-                                Preheat the oven to 170°C/gas mark 3. Remove the pastry dough from the fridge and roll it out onto a flat work surface to a thickness of 5mm. Use a 23cm loose bottomed tart tin and line with great proof paper. Next, carefully line the tin with the rolled pastry
-                                <br><br>
-                                <label class="recipe_num">3</label>
-                                <br>
-                                Brush the tart base with the egg wash and blind bake until the tart is golden brown, about 15-20 minutes. Allow to cool while you make the chocolate filling
-                                <br><br>
-                                <label class="recipe_num">4</label>
-                                <br>
-                                For the filling, place the chocolate pistoles in a large mixing bowl. In a pan, heat the trimoline with the cream until hot, being careful not to boil. Once hot, pour it over the chocolate pistoles and stir until the chocolate has melted. Once the chocolate has melted, add butter and continue to stir until fully melted
-                                390ml of whipping cream
-                                25g of trimoline
-                                365g of 70% dark chocolate pistoles
-                                85g of butter
-                                <br><br>
-                                <label class="recipe_num">5</label>
-                                <br>
-                                Spoon a little chocolate filling around the edges of the tart base to fill in any holes. Allow this chocolate to set in the fridge, then pour in the rest of the chocolate mix to fill the ring
-                                <br><br>
-                                <label class="recipe_num">6</label>
-                                <br>
-                                Place the chocolate tart to set in the fridge for at least 4 hours, or ideally overnight. To serve, use a hot knife to cut the tart into slices
-                            </p>
+                            <p>This web page is a collection of recipes that I find it tasty. I highly recommend it to test this recipes out!</p>
+                            <p>Please use the bar to browse throughout the recipes. </p>
+                            <p>Please enjoy.</p>
+                            <br><br>
+                            <p>If you're brand new we recommend checking this basics tools for chefs <a target="_blank" href="https://www.thespruceeats.com/top-kitchen-tools-1136474">here</a>. In this link has a lot of useful information</p>
                         </div>
-                    </div>
+                        
+                        <!-- Chocolate Tart Content -->
+                        <div id="c_tart" class="content">
+                            <h4 class="mt-2">Chocolate Tart Recipe</h4>
+                            
+                            <p class="text-justify mx-5 mt-4">
+                                <label class="recipe_num">Time: </label> 1 hour 25 minutes, plus 5 hours to overnight chilling time.
+                                <br>
+                                <br>
+                                Dominic Chapman’s lovely chocolate tart is a simple-to-make dessert that would be a wonderful finish to a meal. The orange zest and chopped hazelnuts are delicious additions to the tart base, as both are fabulous taste partners with chocolate. The trimoline required for this rich chocolate tart recipe is available from specialty food stores, but if you don’t have it on hand, you can substitute it with honey, being aware different honeys can impart different flavours in the filling
+                            </p>
+                            
+                            <img class="my-5 img-fluid" src="https://media.discordapp.net/attachments/341295327153750018/860245143961862144/img17699.png" >
+                            
+                            <div class="text-justify mx-5">
+                                
+                                <p class="text-left font-weight-bold">Method:</p>
+                                <p class="mb-4">
+                                    <label class="recipe_num">1</label>
+                                    <br>
+                                    Start by making the tart base. Cream the butter and icing sugar together, then add the flour, hazelnuts, salt and zest. Add 30g of the beaten egg and slowly mix together until it forms a dough. Lightly need to form a ball, wrap in cling film and rest for 1 hour in the fridge before use
+                                    155g of butter
+                                    100g of icing sugar
+                                    75g of hazelnuts
+                                    200g of flour
+                                    1/4 tsp salt
+                                    1 1/2 tsp orange zest
+                                    1 egg
+                                    <br><br>
+                                    <label class="recipe_num">2</label> 
+                                    <br>
+                                    Preheat the oven to 170°C/gas mark 3. Remove the pastry dough from the fridge and roll it out onto a flat work surface to a thickness of 5mm. Use a 23cm loose bottomed tart tin and line with great proof paper. Next, carefully line the tin with the rolled pastry
+                                    <br><br>
+                                    <label class="recipe_num">3</label>
+                                    <br>
+                                    Brush the tart base with the egg wash and blind bake until the tart is golden brown, about 15-20 minutes. Allow to cool while you make the chocolate filling
+                                    <br><br>
+                                    <label class="recipe_num">4</label>
+                                    <br>
+                                    For the filling, place the chocolate pistoles in a large mixing bowl. In a pan, heat the trimoline with the cream until hot, being careful not to boil. Once hot, pour it over the chocolate pistoles and stir until the chocolate has melted. Once the chocolate has melted, add butter and continue to stir until fully melted
+                                    390ml of whipping cream
+                                    25g of trimoline
+                                    365g of 70% dark chocolate pistoles
+                                    85g of butter
+                                    <br><br>
+                                    <label class="recipe_num">5</label>
+                                    <br>
+                                    Spoon a little chocolate filling around the edges of the tart base to fill in any holes. Allow this chocolate to set in the fridge, then pour in the rest of the chocolate mix to fill the ring
+                                    <br><br>
+                                    <label class="recipe_num">6</label>
+                                    <br>
+                                    Place the chocolate tart to set in the fridge for at least 4 hours, or ideally overnight. To serve, use a hot knife to cut the tart into slices
+                                </p>
+                            </div>
+                        </div>
                         
                         <!-- Pizza Content -->
                         <div id="pizza" class="content">
-                        <h4>Pizza Recipe</h4>
-                        <p>
-
-                            For the dough
-                            2 1/4 cups (530 ml) warm water
-                            1 tbsp sugar (12g) sugar
-                            1 tbsp (9g) active dry yeast
-                            2 tbsp (30 ml) olive oil
-                            1 tbsp (18 g) kosher salt
-                            5 cups (600g) bread flour, plus more for working the dough
-                            additional oil for greasing the dough
-                            cornmeal, semolina flour, or coarse-ground whole wheat flour for dusting
-                            
-                            For the sauce
-                            1 28 oz (828 ml) can crushed tomatoes (I like Pastene 'Kitchen Ready')
-                            2-4 tbsp (30-60 ml) olive oil
-                            1 tsp (4g) sugar
-                            2 tsp (a fraction of a gram, I don't know) dried oregano
-                            
-                            For the cheese
-                            24-32 oz (680-910 g) whole-milk, low-moisture mozzarella, freshly grated (6-8 oz / 170-225 g per pizza)
-                            grated parmesan for dusting (maybe 10 g per pizza?)
-                            
-                            Start the dough by combining the water, sugar and yeast in a large bowl and let sit for a few minutes. If the yeast goes foamy, it's alive and you're good to proceed (if it doesn't, it's dead and you need new yeast). Add the olive oil and salt and 5 cups (600g) of bread flour. Mix until just combined, then start kneading. Add just enough additional flour to keep the dough workable (i.e. not too sticky) and kneed until you can stretch some of the dough into a thin sheet without it tearing. (NOTE: You will probably need to add a lot more flour. The quantity I give here is just a base line to get your started.)
-                            
-                            Divide the dough into four equal balls and put them in four containers (ideally glass) and lightly coat the balls and the interior of their containers with olive oil. Cover, and either rise at room temperature for two hours, or put them in the refrigerator and let them rise for 1-7 days. (I prefer the long, cold rise.)
-                            
-                            When you want to bake, put a pizza stone or pizza steel into your oven (mine works best on a high rack position but every oven is different) and preheat to your highest possible temperature, ideally convection, for a full hour.
-                            
-                            For the sauce, simply mix together the ingredients.
-                            
-                            Liberally dust a pizza peel with cornmeal (or something similar). Take the cold dough out of the fridge and dust it in flour. Stretch to the widest size and shape that will fit on your peel and stone/steel. Top with just enough sauce to lightly coat the surface. Dust the sauce layer with parmesan, then cover with the mozzarella. Transfer the pizza to the stone/steel and bake until the crust is well-browned and the cheese has browned a bit (but, ideally, has not started oozing out an orange grease layer), 6-7 minutes.
-                        </p>
+                            <h4>Pizza Recipe</h4>
+                            <img class="img-fluid my-5" src="https://media.discordapp.net/attachments/341295327153750018/860498791693287454/unknown.png" >
+                            <p>
+                                
+                                For the dough
+                                2 1/4 cups (530 ml) warm water
+                                1 tbsp sugar (12g) sugar
+                                1 tbsp (9g) active dry yeast
+                                2 tbsp (30 ml) olive oil
+                                1 tbsp (18 g) kosher salt
+                                5 cups (600g) bread flour, plus more for working the dough
+                                additional oil for greasing the dough
+                                cornmeal, semolina flour, or coarse-ground whole wheat flour for dusting
+                                
+                                For the sauce
+                                1 28 oz (828 ml) can crushed tomatoes (I like Pastene 'Kitchen Ready')
+                                2-4 tbsp (30-60 ml) olive oil
+                                1 tsp (4g) sugar
+                                2 tsp (a fraction of a gram, I don't know) dried oregano
+                                
+                                For the cheese
+                                24-32 oz (680-910 g) whole-milk, low-moisture mozzarella, freshly grated (6-8 oz / 170-225 g per pizza)
+                                grated parmesan for dusting (maybe 10 g per pizza?)
+                                
+                                Start the dough by combining the water, sugar and yeast in a large bowl and let sit for a few minutes. If the yeast goes foamy, it's alive and you're good to proceed (if it doesn't, it's dead and you need new yeast). Add the olive oil and salt and 5 cups (600g) of bread flour. Mix until just combined, then start kneading. Add just enough additional flour to keep the dough workable (i.e. not too sticky) and kneed until you can stretch some of the dough into a thin sheet without it tearing. (NOTE: You will probably need to add a lot more flour. The quantity I give here is just a base line to get your started.)
+                                
+                                Divide the dough into four equal balls and put them in four containers (ideally glass) and lightly coat the balls and the interior of their containers with olive oil. Cover, and either rise at room temperature for two hours, or put them in the refrigerator and let them rise for 1-7 days. (I prefer the long, cold rise.)
+                                
+                                When you want to bake, put a pizza stone or pizza steel into your oven (mine works best on a high rack position but every oven is different) and preheat to your highest possible temperature, ideally convection, for a full hour.
+                                
+                                For the sauce, simply mix together the ingredients.
+                                
+                                Liberally dust a pizza peel with cornmeal (or something similar). Take the cold dough out of the fridge and dust it in flour. Stretch to the widest size and shape that will fit on your peel and stone/steel. Top with just enough sauce to lightly coat the surface. Dust the sauce layer with parmesan, then cover with the mozzarella. Transfer the pizza to the stone/steel and bake until the crust is well-browned and the cheese has browned a bit (but, ideally, has not started oozing out an orange grease layer), 6-7 minutes.
+                            </p>
                             
                         </div>
                         
-                </div>
+                    </div>
                     
-            </article>
+                </article>
                 
+            </div>
                 
         </div>
             
     </main>
     
     <!-- footer -->
-    <footer class="text-center p-3">
-        <h4>FOOTER</h4>
+    <footer class="text-center p-3 border-top">
 
         <!-- form -->
         <form>
@@ -178,3 +185,5 @@
 
     </body>
     </html>
+
+    
